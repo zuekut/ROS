@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	    <node pkg="stage_ros" type="stageros" name="stageros" args="$(find ass2)/world/empty.world"/>
+	    <node pkg="ass2" name="goal_node" type="goal_node" output="screen" launch-prefix="xterm -e"/>
+
+	    <node pkg="ass2" name="servoing_node" type="servoing_node" output="screen"/>
+	    <node pkg="ass2" name="pointshoot_node" type="pointshoot_node" output="screen"/>
+</launch>

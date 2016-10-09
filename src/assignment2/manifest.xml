@@ -1,0 +1,24 @@
+<package>
+  <description brief="assignment2">
+
+     assignment2
+
+  </description>
+  <author>root</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/assignment2</url>
+  <depend package="message_generation"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+  <depend package="message_runtime"/>
+	  
+ <run_depend>message_runtime</run_depend>
+ <run_depend>roscpp</run_depend>
+ <run_depend>rospy</run_depend>
+ <run_depend>std_msgs</run_depend>
+ <run_depend>message_generation</run_depend>
+</package>
+
+

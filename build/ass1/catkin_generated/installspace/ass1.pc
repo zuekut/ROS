@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: ass1
+Description: Description of ass1
+Version: 0.0.0
+Cflags: -I/root/catkin_ws/install/include
+Libs: -L/root/catkin_ws/install/lib 
+Requires: message_runtime
